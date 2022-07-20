@@ -12,7 +12,6 @@ let randomizeColor = function () {
 
     main.style.backgroundColor = "rgb(" + rgb[0] + ", " + rgb[1] + ", " + rgb[2] + ")";
     if (hex) {
-        let hexCode = (rgb[0].toString(16).padStart(2, '0') + rgb[1].toString(16).padStart(2, '0') + rgb[2].toString(16).padStart(2, '0')).toUpperCase();
         feedback.textContent = "background color: #" + hexCode;
     } else {
         feedback.textContent = "background color: rgb(" + rgb[0] + ", " + rgb[1] + ", " + rgb[2] + ")";
