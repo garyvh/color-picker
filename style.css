@@ -72,9 +72,13 @@ main {
     color: white;
     font-size: 20px;
     margin: 3em;
+    transition: 200ms ease;
+
 }
 
 
 #btn:hover {
     background-color: #46494b;
+    transition: 200ms ease;
+
 }
